@@ -1,0 +1,85 @@
+Started GET "/api/private" for ::1 at 2021-04-14 10:16:39 +0100
+Processing by PrivateController#private as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.5ms)
+
+
+Started GET "/api/public" for ::1 at 2021-04-14 10:17:50 +0100
+Processing by PublicController#public as */*
+Completed 200 OK in 2ms (Views: 0.3ms)
+
+
+Started GET "/api/private" for ::1 at 2021-04-14 10:18:10 +0100
+Processing by PrivateController#private as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 0ms (Views: 0.2ms)
+
+
+Started GET "/api/private" for ::1 at 2021-04-14 10:22:42 +0100
+Processing by PrivateController#private as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms)
+
+
+Started GET "/api/private" for ::1 at 2021-04-14 10:23:14 +0100
+Processing by PrivateController#private as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms)
+
+
+Started GET "/api/private" for ::1 at 2021-04-14 10:28:47 +0100
+Processing by PrivateController#private as */*
+Completed 200 OK in 332ms (Views: 0.2ms)
+
+
+Started GET "/api/private-scoped" for ::1 at 2021-04-14 11:19:33 +0100
+Processing by PrivateController#private_scoped as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 403 Forbidden in 327ms (Views: 1.3ms)
+
+
+Started GET "/api/private-scoped" for ::1 at 2021-04-14 11:28:11 +0100
+Processing by PrivateController#private_scoped as */*
+Completed 200 OK in 239ms (Views: 0.3ms)
+
+
+Started GET "/api/public" for ::1 at 2021-04-14 11:39:50 +0100
+Processing by PublicController#public as */*
+Completed 200 OK in 1ms (Views: 0.4ms)
+
+
+Started GET "/api/private" for ::1 at 2021-04-14 11:40:39 +0100
+Processing by PrivateController#private as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 1ms (Views: 0.3ms)
+
+
+Started GET "/api/private" for ::1 at 2021-04-14 11:45:54 +0100
+Processing by PrivateController#private as */*
+Completed 200 OK in 308ms (Views: 0.3ms)
+
+
+Started GET "/api/private-scoped" for ::1 at 2021-04-14 11:58:17 +0100
+Processing by PrivateController#private_scoped as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.0ms)
+
+
+Started GET "/api/private-scoped" for ::1 at 2021-04-14 12:03:35 +0100
+Processing by PrivateController#private_scoped as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.1ms)
+
+
+Started GET "/api/private-scoped" for ::1 at 2021-04-14 12:06:10 +0100
+Processing by PrivateController#private_scoped as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 401 Unauthorized in 2ms (Views: 1.4ms)
+
+
+Started GET "/api/private-scoped" for ::1 at 2021-04-14 12:06:28 +0100
+Processing by PrivateController#private_scoped as */*
+Filter chain halted as :authenticate_request! rendered or redirected
+Completed 403 Forbidden in 272ms (Views: 0.3ms)
+
+
